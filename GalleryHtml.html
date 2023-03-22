@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./GalleryCss.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gallery">
+        <h1>Choose a photo</h1>
+        <div class="photos">
+            <img onclick="main.src=this.src" src="./images/img1.png" alt="">
+            <img onclick="main.src=this.src" src="./images/img2.png" alt="">
+            <img onclick="main.src=this.src" src="./images/img3.png" alt="">
+            <img onclick="main.src=this.src" src="./images/img4.png" alt="">
+        </div>
+        <div class="main">
+            <img src="./images/img4.png" name="main" alt="">
+        </div>
+        <h1>Move the mouse over the pictures</h1>
+        <div class="photos">
+            <img onmouseover="main.src=this.src" src="./images/img1.png" alt="">
+            <img onmouseover="main.src=this.src"  src="./images/img2.png" alt="">
+            <img onmouseover="main.src=this.src"  src="./images/img3.png" alt="">
+            <img onmouseover="main.src=this.src"  src="./images/img4.png" alt="">
+        </div>
+    </div>
+    <script src="./GalleryJs.js"></script>
+</body>
+</html>
